@@ -15,8 +15,8 @@ class RoadLogistics extends LogisticService {
 }
 
 class SeaLogistics extends LogisticService {
-    public createTransport(): Transport{
-        return new Ship();  
+    public createTransport(): Transport {
+        return new Ship();
     }
 }
 
@@ -52,5 +52,5 @@ console.log("");
 //Step 1: Create the interface, which is the return type of the factory function that produces the products. The interface should have functionality that is common to the products.
 //Step 2: Create the product classes that implement the interface and return the implementation of then functions that are inherited from the interface.
 //Step 3: Create the Creator class that has the factort function that returns the products and along with some business logic associated with the product.
-//Step 4: Create the Concrete Classes that inherit from the Creator and return the products by implementing the factory function. 
+//Step 4: Create the Concrete Classes that inherit from the Creator and return the products by implementing the factory function.
 //Step 5: Create seperate implementations with each class to test them out.
